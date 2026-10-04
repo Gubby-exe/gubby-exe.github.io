@@ -121,6 +121,8 @@ main {
     background:#e52b2b;
     color:white;
     text-decoration:none;
+    font-size:16px;
+    font-family:inherit;
     border-radius:10px;
     border:2px solid #ff6b6b;
     box-shadow:2px 2px #711;
@@ -130,6 +132,11 @@ main {
 .download:hover {
     background:#ff3b3b;
     transform:scale(1.08);
+}
+
+.download:active {
+    transform:scale(0.95);
+    box-shadow:1px 1px #711;
 }
 
 .empty {
@@ -154,20 +161,27 @@ main {
 }
 
 .github-button {
-    padding:15px 25px;
-    background:#191919;
+    padding:8px 15px;
+    background:#e52b2b;
     color:white;
     text-decoration:none;
-    font-size:18px;
-    border-radius:15px;
-    border:2px solid white;
-    transition:.25s;
+    font-size:16px;
+    font-family:inherit;
+    border-radius:10px;
+    border:2px solid #ff6b6b;
+    box-shadow:2px 2px #711;
+    transition:.2s;
 }
 
 .github-button:hover {
-    background:white;
-    color:black;
-    transform:translateY(-5px);
+    background:#ff3b3b;
+    transform:scale(1.08);
+    box-shadow:3px 3px #711;
+}
+
+.github-button:active {
+    transform:scale(0.95);
+    box-shadow:1px 1px #711;
 }
 
 footer {
@@ -197,7 +211,8 @@ footer {
         height:90px;
     }
 
-    .download {
+    .download,
+    .github-button {
         margin-top:10px;
     }
 }
