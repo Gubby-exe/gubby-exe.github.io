@@ -139,23 +139,11 @@ main {
     box-shadow:1px 1px #711;
 }
 
-.empty {
-    padding:35px;
-    text-align:center;
-    border:2px dashed #555;
-    border-radius:20px;
-    color:#888;
-}
-
-.empty span {
-    display:block;
-    margin-bottom:10px;
-    font-size:35px;
-}
-
 .github-section {
     display:flex;
     justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
     margin-top:-35px;
     margin-bottom:80px;
 }
@@ -184,6 +172,20 @@ main {
     box-shadow:1px 1px #711;
 }
 
+.empty {
+    padding:35px;
+    text-align:center;
+    border:2px dashed #555;
+    border-radius:20px;
+    color:#888;
+}
+
+.empty span {
+    display:block;
+    margin-bottom:10px;
+    font-size:35px;
+}
+
 footer {
     padding:35px 20px;
     text-align:center;
@@ -192,6 +194,7 @@ footer {
 }
 
 @media(max-width:650px) {
+
     main {
         padding:35px 15px;
     }
@@ -215,4 +218,5 @@ footer {
     .github-button {
         margin-top:10px;
     }
+
 }
