@@ -1,4 +1,4 @@
-const gubbySound = new Audio("meme/gubby.mp3");
+const gubbySound = new Audio("meme/gubby2.mp3");
 
 gubbySound.volume = 1;
 
