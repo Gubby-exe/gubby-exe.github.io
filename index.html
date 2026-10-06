@@ -17,11 +17,8 @@
 <main>
 <section class="category">
     <h2>МОИ РАБОТЫ</h2>
-
     <div class="items">
-
         <article class="item">
-
             <div class="item-icon">
                 <img src="images/BAKE иконка.png" alt="BAKE">
             </div>
@@ -64,5 +61,15 @@
 <footer>
     made by Gubby
 </footer>
+<audio id="gubbySound">
+    <source src="meme/is that a gubby.mp3" type="audio/mpeg">
+</audio>
+<script>
+    const gubbySound = document.getElementById("gubbySound");
+    setInterval(() => {
+        gubbySound.currentTime = 0;
+        gubbySound.play();
+    }, 15000);
+</script>
 </body>
 </html>
