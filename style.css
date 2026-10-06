@@ -10,7 +10,7 @@ body {
     margin:0;
     background:#111;
     color:white;
-    font-family:"Comic Sans MS","Comic Sans",cursive;
+    font-family:"Comic Sans MS","Comic Sans","Arial Rounded MT Bold",Arial,sans-serif;
 }
 
 .site-header {
